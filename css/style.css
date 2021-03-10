@@ -1,0 +1,484 @@
+/* asterisco afeta todos os elementos do html */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-y:content;
+}
+
+p, label, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+    /* Navbar */
+
+
+    .bg-navbar{
+        background-color: #1d1d1d;
+    }
+
+    .ib-navbar-cta {
+        height: 100%;
+        background-color: #2570FF;
+        position: relative;
+        border-radius: 64px;
+        color: #fff;
+    }
+
+    .ib-navbar-cta:hover {
+        font-weight: 700;
+        color: #fff;
+        transition: all .20s ease-in-out;
+        -moz-transition: all .20s ease-in-out;
+        -webkit-transition: all .20s ease-in-out;
+    }
+
+    /* JUMBOTRON */
+
+    .jumbotron{
+        height: calc(100vh - 56px);
+        width: 100%;
+        background-image: url("../img/bg-ideabox.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        text-align:center;
+        
+        
+    }
+
+    .jumbotron .btn {  
+      margin-top: 72px;
+      background-color: #2570FF;
+      border-radius: 64px;
+      color: #fff;
+    }
+
+    .jumbotron .btn:hover {
+      font-weight: 700;
+      color: #fff;
+      transition: all .20s ease-in-out;
+      -moz-transition: all .20s ease-in-out;
+      -webkit-transition: all .20s ease-in-out;
+    }
+
+    /* QUEM SOMOS */
+
+    .ib-quem-somos {
+        height: 100vh;
+        width: auto;
+        background-color: #EEE;
+
+    }
+
+    .ib-quem-somos h2 {
+        padding-top: 72px;
+    }
+
+    .ib-quem-somos-conteudo {
+        margin-top: 72px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ib-quem-somos-texto{
+      padding-top: 32px;
+      float: left;
+    }
+
+    .ib-quem-somos-img {
+        float:right;   
+        width: 100%;
+        height: 100%;
+    }
+
+    .ib-quem-somos :last-child {
+        align-self: center;
+      }
+
+
+    /* SOLUÇÕES */
+
+    .ib-solucoes {
+        height: 100%;
+        width: auto;
+    }
+
+    .ib-solucoes h2 {
+        margin-top: 72px;
+    }
+
+    .carousel-slide .carousel-slide .active{
+        background-color: rgba(37.0, 112.0, 255.0, 1.0);
+    }
+
+    .carousel-slide .carousel-control-prev-icon{
+        color: rgba(37.0, 112.0, 255.0, 1.0);
+    }
+    
+    .carousel-slide .carousel-control-next-icon {
+        color: rgba(37.0, 112.0, 255.0, 1.0);
+    }
+
+    .carousel-indicators .active{
+        background-color: #2570FF;
+    }
+
+    .carousel .carousel-indicators li {
+        background-color: #fff;
+        background-color: rgba(70, 70, 70, 0.25);
+    }
+    
+    .carousel .carousel-indicators .active {
+        background-color: rgba(37.0, 112.0, 255.0, 1.0);
+    }
+
+    .carousel-inner img{
+        height: auto;   
+        width: 100%;
+    }
+
+    /* BY SISPRO */
+
+    .ib-ideabox-sispro {
+      height: 100vh;
+      background-color: #EEE;
+    }
+
+    .ib-ideabox-sispro-conteudo {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ib-ideabox-sispro-texto {
+      margin-top: 72px;
+      float: left;
+    }
+
+    .ib-img-ideabox-sispro{
+      margin-top: 36px;
+      float:right;   
+      width: 90%;
+      height: 100%;
+    }
+
+    .ib-ideabox-sispro-conteudo :last-child {
+        align-self: center;
+      }
+
+    .ib-ideabox-sispro-conteudo button {
+      margin-top:16px;
+      background-color: #2570FF;
+      position: relative;
+      border-radius: 64px;
+      color: #fff;
+    }
+
+    .ib-ideabox-sispro button:hover {
+        font-weight: 700;
+        color: #fff;
+        transition: all .20s ease-in-out;
+        -moz-transition: all .20s ease-in-out;
+        -webkit-transition: all .20s ease-in-out;
+    }
+
+    /* PARALLAX */
+
+    .bg-parallax {
+        background: url(../img/bg-parallax.png) fixed;
+        position: relative;
+    }
+
+    .fatos {
+        text-align: center;
+        color: #fff;
+    }
+
+    .fatos .icon i {
+        font-size:50px;
+        color: #fff;
+    }
+
+    .fatos h3 {
+        font-size: 35px;
+        color: #fff;
+        margin-bottom: 5px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .fatos h4 {
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 1px;;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonials-clean {
+        background-size: 100vh;
+        color:#313437;
+        background-color:#eef4f7;
+      }
+      
+      .testimonials-clean p {
+        color:#7d8285;
+      }
+      
+      .testimonials-clean h2 {
+        font-weight:bold;
+        margin-bottom:32px;
+        padding-top:32px;
+        color:inherit;
+      }
+      
+      @media (max-width:767px) {
+        .testimonials-clean h2 {
+          margin-bottom:25px;
+          padding-top:25px;
+          font-size:24px;
+        }
+      }
+      
+      .testimonials-clean .intro {
+        font-size:16px;
+        max-width:500px;
+        margin:0 auto;
+      }
+      
+      .testimonials-clean .intro p {
+        margin-bottom:0;
+      }
+      
+      .testimonials-clean .people {
+        padding: 0px 0 32px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      
+      .testimonials-clean .item {
+        margin-bottom:32px;
+      }
+      
+      @media (min-width:768px) {
+        
+      }
+      
+      .testimonials-clean .item .box {
+        padding:30px;
+        background-color:#fff;
+        position:relative;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .testimonials-clean .item .box:after {
+        content:'';
+        position:absolute;
+        left:30px;
+        bottom:-24px;
+        width:0;
+        height:0;
+        border:15px solid transparent;
+        border-width:12px 15px;
+        border-top-color:#fff;
+      }
+      
+      .testimonials-clean .item .author {
+        margin-top:28px;
+        padding-left:25px;
+      }
+      
+      .testimonials-clean .item .name {
+        font-weight:bold;
+        margin-bottom:2px;
+        color:inherit;
+      }
+      
+      .testimonials-clean .item .title {
+        font-size:13px;
+        color:#9da9ae;
+      }
+      
+      .testimonials-clean .item .description {
+        font-size:12px;
+        margin-bottom:0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .testimonials-clean .item img {
+        max-width:40px;
+        float:left;
+        margin-right:12px;
+        margin-top:-5px;
+      }
+
+
+    /* CASES */
+
+    .ib-cases {
+      width: 100%;
+      padding: 32px;
+      position: relative;
+      text-align:center;
+    }
+
+    .ib-cases-logos {
+      padding: auto 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /*
+    .ib-cases-logos {
+      margin: 32px auto;
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    */
+
+    /* CONTATO */
+
+    .ib-contato {
+      height: 100vh;
+      background-color: #2570FF;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ib-contato img {
+      float:right;
+      width: 100%;
+    }
+
+    .ib-contato-cta {
+      height: auto;
+      width: 100%;
+      float:left;
+      background-color: #fff;
+      position: relative;
+      border-radius: 64px;
+      border: none;
+      color: #2570FF;
+  }
+
+  .ib-contato-cta:hover {
+      font-weight: 700;
+      background-color: #fff;
+      color: #2570FF;
+      transition: all .20s ease-in-out;
+      -moz-transition: all .20s ease-in-out;
+      -webkit-transition: all .20s ease-in-out;
+  }
+
+  .ib-contato :last-child {
+    align-self: center;
+  }
+
+  /* FOOTER */
+
+  .footer{
+    background: #1d1d1d;
+  }
+      
+  .ib-links{
+    text-decoration: none;
+  }
+
+  .ib-links a{
+    color: #fff;
+  }
+
+  .ib-links li{
+    list-style-type: none;
+  }
+
+  .copyright p {
+    border-top:1px solid rgba(255,255,255,.1);
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* MOBILE */
+
+  @media screen and (max-width: 768px) {
+
+    /* QUEM SOMOS */
+    .ib-quem-somos {
+      height: 123vh;
+    }
+
+    /* SISPRO */
+    .ib-ideabox-sispro {
+      height: 150vh;
+    }
+
+    /* CASES */
+
+
+    .ib-cases-logos img {
+      padding-top: 16px;
+    }
+    
+    /* CONTATO */
+
+    .ib-cta{
+      margin-top:32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .ib-contato {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .ib-contato-cta {
+      height: auto;
+      width: 110%;
+    }
+
+    /* FOOTER */
+
+    .ib-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ib-endereco {
+      padding-top: 16px;
+    }
+
+  }
+
+
+
+
+
+
+
+
